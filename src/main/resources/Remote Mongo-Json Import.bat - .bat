@@ -1,0 +1,10 @@
+cd "C:\Program Files\MongoDB\Server\3.0\bin"
+mongo --host ds053429.mongolab.com:53429 --username roi --password roi whats_cook_db --eval "db.dropDatabase()"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection spices --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\spices.json"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection sauce --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\sauce.json"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection meat --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\meat.json"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection fruits --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\fruits.json"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection vegetables --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\vegetables.json"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection recepies --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\UkrainianSalatVinaigrette.json"
+mongoimport --host ds053429.mongolab.com:53429 --username roi --password roi --db whats_cook_db --collection recepies --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\RoiSalat.json"
+pause

@@ -1,0 +1,75 @@
+{
+	"recipeName": "UkrainianSalatVinaigrette",
+	"directions":"Place the beets into a large pot and cover with water. Bring to a boil over high heat, then reduce heat to medium-low, cover, and simmer for about 20 minutes. Add the carrots and potatoes. Boil for another 10 minutes, then cover the pot and leave overnight. The next day, peel and dice the beets, carrots, and potatoes into small, even pieces. Place the vegetables in a large bowl. Stir in the pickles, onion, peas, olive oil, salt, and pepper. Garnish with parsley before serving.",
+	"ingredients":
+		[
+			{
+				"_id": 5004,
+				"name": "sweet chili sauce",
+				"quantity":	"1 - pound"
+			},
+			{
+				"_id": 5001,
+				"name": "sweet onion sauce",
+				"quantity":	"1 - pound"
+			},
+			{
+				"_id": 5003,
+				"name": "mayo",
+				"quantity":	"1 - pound"
+			},
+			{
+				"_id": 3013,
+				"name": "beet",
+				"quantity":	"1 - pound"
+			},
+			{
+				"_id": 3026,
+				"name": "carrot",
+				"quantity":	"1 -  pound"
+			},
+			{
+				"_id": 3092,
+				"name": "potatoes",
+				"quantity":	"1 - pound"
+			},
+			{
+				"_id": 3124,
+				"name": "pickles",
+				"quantity":	"2 large dill"
+			},
+			{
+				"_id": 3084,
+				"name": "onion",
+				"quantity":	"1 "
+			},
+			{
+				"_id": 3090,
+				"name": "peas",
+				"quantity":	"1 "
+			},
+			{
+				"_id" : 5008,
+				"name": "olive oil",
+				"quantity":	"2 tablespoons"
+			},
+			{
+				"_id": 1057,
+				"name": "Black Pepper",
+				"quantity":	"1/2 teaspoon"
+			},
+			{
+				"_id": 3087,
+				"name": "parsley",
+				"quantity":	"1 tablespoon"
+			},
+			{
+				"_id": 1058,
+				"name": "Salt",
+				"quantity":	"1/2 teaspoon"
+			}
+		]
+	
+}
+       
+   

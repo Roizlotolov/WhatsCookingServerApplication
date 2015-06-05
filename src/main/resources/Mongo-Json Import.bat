@@ -1,0 +1,10 @@
+cd "C:\Program Files\MongoDB\Server\3.0\bin"
+mongo Cook --eval "db.dropDatabase()"
+mongoimport --db Cook --collection spices --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\spices.json"
+mongoimport --db Cook --collection sauce --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\sauce.json"
+mongoimport --db Cook --collection meat --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\meat.json"
+mongoimport --db Cook --collection fruits --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\fruits.json"
+mongoimport --db Cook --collection vegetables --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\vegetables.json"
+mongoimport --db Cook --collection recepies --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\UkrainianSalatVinaigrette.json"
+mongoimport --db Cook --collection recepies --file "C:\Users\Roi Zlotolov\Documents\GitHub\WhatsCookProject\WhatsCookServerApplication\src\main\resources\RoiSalat.json"
+pause
